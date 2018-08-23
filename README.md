@@ -5,7 +5,7 @@ If you want to change any of the source code, you will need to recompile to get 
 
 pip install pyinstaller
 
-pyinstaller -i icon.ico script.py
+pyinstaller -F -i icon.ico script.py
 
 USB Drop Documentation The point of this USB drop is not to compromise a machine or network, it is a test to see if a company is susceptible to social engineering attacks. Server side: Not much needs to be done here unless you want to edit how the server logs connections. Requirements: Python
 
